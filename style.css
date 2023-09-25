@@ -18,32 +18,32 @@ body {
     justify-content: space-between;
 }
 
-.button1{
+.button1, .button2 {
     background-color: #3882F6;
     border-radius: 5px;
     border: none;
     color: #F9FAF8;
-    font-size: 18px;
+    font-size: 2vw;
     padding: 5px;
     font-weight: bold;
     text-align: center;
 }
 
 .p1 {
-    font-size: 48px;
+    font-size: 5vw;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
 .p2 {
-    font-size: 18px;
+    font-size: 3vw;
     color: #E5E7EB;
 }
 .header-links{
     padding: 8px;
     display: flex;
     gap: 16px;
-    font-size: 18px;
+    font-size: 2vw;
     color: #E5E7EB;
 }
 
@@ -64,12 +64,45 @@ a {
 
 .section1 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 8px;
+    align-items: center;
+
 }
 
 .sec-content {
+    
 }
 
 .sec-content-image {
+}
+
+.title {
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px;
+}
+
+.branch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border-radius: 20px;
+    border-color: #7d22c2;
+    border-width: 3px;
+    border-style: dashed;
+    background-color: rgb(228, 226, 226);
+    font-size: 2vw;
+    color: rgb(20, 14, 14);
+    font-weight: 900;
+    margin: 2px;
+    padding: 5px;
 }
